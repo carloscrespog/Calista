@@ -1,0 +1,31 @@
+<virtual-sensor name="light" priority="10" >
+    <processing-class>
+       <class-name>gsn.vsensor.BridgeVirtualSensor</class-name>
+       <init-params/>
+       <output-structure>
+          <field name="VALUE" type="double" />
+ 
+       </output-structure>
+    </processing-class>
+    <description>This is a light sensor.</description>
+    <addressing>
+        <predicate key="geographical">Sensor 115 @ EPFL</predicate> 
+        <predicate key="LATITUDE">40.453051</predicate>
+        <predicate key="LONGITUDE">-3.725740</predicate>
+    </addressing>
+    <storage history-size="10"/>
+    <streams>
+        <stream name="input1">
+			<source alias="source" sampling-rate="1" storage-size="1">
+				<address wrapper="raspberry">
+				    <predicate key="device">light</predicate>
+				    <predicate key="rate">1000</predicate>
+					<predicate key="type">sensor</predicate>
+				</address>
+				<query>select * from wrapper</query>
+			</source>
+			<query>select * from source
+			    </query>
+		</stream>
+    </streams>
+</virtual-sensor> 

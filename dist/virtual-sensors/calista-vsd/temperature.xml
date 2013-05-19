@@ -1,0 +1,30 @@
+<virtual-sensor name="temperature_hall" priority="10" >
+    <processing-class>
+       <class-name>gsn.vsensor.BridgeVirtualSensor</class-name>
+       <init-params/>
+       <output-structure>
+          <field name="VALUE" type="DOUBLE" />
+       </output-structure>
+    </processing-class>
+    <description>This is a temperature sensor.</description>
+    <addressing>
+        <predicate key="geographical">Sensor 114 @ EPFL</predicate> 
+        <predicate key="LATITUDE">46.520000</predicate>
+        <predicate key="LONGITUDE">5.565000</predicate>
+    </addressing>
+    <storage history-size="10"/>
+    <streams>
+        <stream name="input1">
+			<source alias="source" sampling-rate="1" storage-size="1">
+				<address wrapper="raspberry">
+				    <predicate key="device">temperature_hall</predicate>
+				    <predicate key="rate">1000</predicate>
+					<predicate key="type">sensor</predicate>
+				</address>
+				<query>select * from wrapper</query>
+			</source>
+			<query>select * from source
+			    </query>
+		</stream>
+    </streams>
+</virtual-sensor> 
