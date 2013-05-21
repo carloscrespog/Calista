@@ -20,6 +20,10 @@ import gsn.beans.DataTypes;
 import gsn.beans.StreamElement;
 import gsn.wrappers.AbstractWrapper;
 
+
+// CLASS FOR CONTROLLING SENSOR WITH 2 DIFFERENT STATES ( 1 o 0 ).
+
+// UNCOMMENT LINES FOR USING RASPBERRY
 public class BinarySensor implements DeviceAbstract {
 
 	private String name;

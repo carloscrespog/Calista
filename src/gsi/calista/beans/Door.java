@@ -4,17 +4,18 @@ import java.io.FileInputStream;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Properties;
-
 import com.pi4j.io.gpio.GpioPinDigitalInput;
 import com.pi4j.io.gpio.Pin;
 import com.pi4j.io.gpio.PinState;
 import com.pi4j.io.gpio.RaspiPin;
 import com.pi4j.wiringpi.Gpio;
-
 import gsi.calista.actions.RaspberryPI;
 import gsn.beans.DataField;
 import gsn.beans.DataTypes;
 import gsn.beans.StreamElement;
+
+
+//UNCOMMENT LINES FOR USING RASPBERRY
 
 public class Door implements DeviceAbstract {
 

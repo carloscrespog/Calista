@@ -28,8 +28,6 @@ public class RaspberryPIWrapper extends AbstractWrapper {
 	private AddressBean params;
 
 
-	// Variables compartidas en el thread.
-
 	private Boolean pool = false;
 
 	public boolean initialize() {

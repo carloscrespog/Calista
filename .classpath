@@ -182,5 +182,17 @@
 	<classpathentry kind="lib" path="lib/calista-libs/twitter4j-media-support-3.0.3.jar"/>
 	<classpathentry kind="lib" path="lib/calista-libs/twitter4j-stream-3.0.3.jar"/>
 	<classpathentry kind="lib" path="lib/calista-libs/java-json.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jackson-core-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jackson-jaxrs-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jackson-xc-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jersey-client-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jersey-core-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jersey-json-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jersey-server-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jersey-servlet-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/calista-libs/jax-rs/jsr311-api-1.1.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

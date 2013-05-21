@@ -164,6 +164,8 @@ public class Calista {
 		return true;
 
 	}
+	
+
 
 	public static boolean sendFirstTweet(String tweet) {
 		try {
@@ -180,75 +182,6 @@ public class Calista {
 
 	}
 
-
-	public static void main(String[] args) throws InterruptedException, IOException {
-		
-
-//		RaspberryPI raspi = new RaspberryPI();
-//
-//		while (true) {
-//			double reading = 0;
-//			
-////			final GpioController gpio = GpioFactory.getInstance();
-////	        
-////	        // provision gpio pin #01 as an output pin and turn on
-//////	        
-////			GpioPinDigitalOutput pin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_07, "MyLED", PinState.LOW);
-////			pin.setState(PinState.LOW);
-////			
-////			
-////			gpio.unprovisionPin(pin);
-////			
-////	     	//gpio.unprovisionPin(pin);
-////			
-////			GpioPinDigitalInput pin2 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_07, "MyLED");
-////	     	
-////			Thread.sleep(100);
-////			
-////			//GpioPinDigitalMultipurpose pin2= gpio.provisionDigitalMultipurposePin(RaspiPin.GPIO_07, PinMode.DIGITAL_OUTPUT);
-////		
-////			
-//////			pin2.setMode(PinMode.DIGITAL_INPUT);
-////			
-////			//final GpioPinDigitalInput pin2 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_07, "MyLED");
-////			   
-////			// This takes about 1 millisecond per loop cycle
-////			while (pin2.getState().equals(PinState.LOW)) {
-////				reading += 1;
-////			}
-//
-//			
-////			RaspberryPI pi = new RaspberryPI();
-////			pi.setDigitalValue(RaspiPin.GPIO_07, PinState.LOW);
-////			
-////			Thread.sleep(1000);
-////			
-////			
-////			while (pi.getDigitalValue(RaspiPin.GPIO_07).equals(PinState.LOW)) {
-////				reading += 1;
-////			}
-////			
-////			
-////			
-////			System.out.println(reading);
-//			
-//		
-//			
-//		
-//		
-//		while(true){
-//			if(raspi.getDigitalValue(RaspiPin.GPIO_04).equals(PinState.HIGH)){
-//				System.out.println("HIGH es abierta");
-//			}else{
-//				System.out.print("LOW es cerrada");
-//			}
-//			
-//			Thread.sleep(1000);
-//			
-		//turnonComputer("","");
-		
-		
-		}
 	
 		
 		

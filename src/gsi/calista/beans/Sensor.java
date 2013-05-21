@@ -9,6 +9,10 @@ import gsn.beans.DataField;
 import gsn.beans.DataTypes;
 import gsn.beans.StreamElement;
 
+
+//UNCOMMENT LINES FOR USING RASPBERRY PI
+
+
 public class Sensor implements DeviceAbstract {
 
 	private String name;
