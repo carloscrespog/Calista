@@ -1,8 +1,8 @@
 <sensor-server>
-   <name>Calista</name>
-   <author>Grupo de Sistemas Inteligentes UPM</author>
-   <email>totemteleko@gmail.com</email>
-   <description>Departament Laboratory</description>
+   <name>GSN Server</name>
+   <author>GSN Development Team.</author>
+   <email>my email address</email>
+   <description>Not Provided</description>
    <port>22001</port>
 
 <!-- SSL Support, Optional -->
